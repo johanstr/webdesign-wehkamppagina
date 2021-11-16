@@ -1,0 +1,58 @@
+/*
+ * VARIABELEN
+ */
+:root {
+    --clr-main: #fe5554;
+    --clr-text: #000000e0;
+    --clr-header-bottom: #e5e6e8;
+    --clr-nav-hover: #00000060;
+    --clr-nav-icon: #000000a0;
+}
+
+/*
+ * FONTS
+ */
+@font-face {
+    font-family: GibsonBold;
+    src: url(../fonts/gibson-bold.ttf);
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url(../fonts/Gibson-Regular.ttf);
+}
+
+/*
+ * RESET
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Gibson, arial, geneva, sans-serif;
+    font-size: 16px;
+}
+
+/*
+ * HEADER & NAV STYLING
+ */
+header {
+    width: 100vw;
+    border-top: 2px solid var(--clr-main);
+    border-bottom: 2px solid var(--clr-header-bottom);
+}
+
+header main {
+    display: flex;
+    flex-direction: column;
+    width: 1214px;
+    margin: 0 auto;
+}
+
+
+
+
+
